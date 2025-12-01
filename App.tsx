@@ -114,7 +114,7 @@ const App: React.FC = () => {
       `;
 
       const response = await genAI.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-pro-preview',
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
